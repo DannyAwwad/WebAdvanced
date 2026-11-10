@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "courseCode": "CSCI426",
+    "date": "2026-11-14",
+    "time": "10:00",
+    "room": "302-A"
+  },
+  {
+    "id": 2,
+    "courseCode": "MATH201",
+    "date": "2026-11-17",
+    "time": "12:00",
+    "room": "105-F"
+  },
+  {
+    "id": 3,
+    "courseCode": "CSCI315",
+    "date": "2026-11-20",
+    "time": "09:00",
+    "room": "204-C"
+  }
+]
