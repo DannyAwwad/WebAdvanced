@@ -41,7 +41,7 @@ const contactInfo = [
 function Contact() {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
+    studentID: '',
     subject: '',
     message: '',
   })
@@ -63,7 +63,7 @@ function Contact() {
 
     setFormData({
       name: '',
-      email: '',
+      studentID: '',
       subject: '',
       message: '',
     })
@@ -207,14 +207,14 @@ function Contact() {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Email Address
+                      Student ID
                     </label>
                     <input
-                      type="email"
-                      name="email"
-                      value={formData.email}
+                      type="text"
+                      name="StudentID"
+                      value={formData.studentID}
                       onChange={handleChange}
-                      placeholder="Enter your email"
+                      placeholder="Enter your Student ID"
                       required
                       className="w-full px-4 py-3 rounded-xl bg-[#151521] border border-gray-700/50 text-gray-100 placeholder-gray-500 focus:outline-none focus:border-blue-500 transition-colors"
                     />

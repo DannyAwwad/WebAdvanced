@@ -1,0 +1,3 @@
+- Syncrhonize the colors across all tabs
+- Add a profile picture
+- Add Responsiveness for mobile devices
