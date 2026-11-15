@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Courses from './pages/Courses'
+import Grades from "./pages/Grades";
+import Schedule from "./pages/Schedule";
 
 function App() {
   return (
@@ -11,9 +13,12 @@ function App() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/grades" element={<Grades />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/schedule" element={<Schedule />} />
+
         </Route>
       </Routes>
     </BrowserRouter>

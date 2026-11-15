@@ -3,37 +3,40 @@
   "courses": [
     {
       "id": 1,
-      "title": "Web Programming",
       "courseCode": "CSCI426",
+      "title": "Web Programming",
       "major": "Computer Science",
       "credits": 3,
       "status": "Enrolled",
       "instructor": "Dr. John Smith",
-      "sched": "Monday / Wednesday, 08:00 - 09:15",
+      "days": ["Monday", "Wednesday"],
+      "session": 1,
       "room": "302-A",
       "section": "B"
     },
     {
       "id": 2,
-      "title": "Calculus II",
       "courseCode": "MATH201",
+      "title": "Calculus II",
       "major": "Mathematics",
       "credits": 3,
       "status": "Enrolled",
       "instructor": "Dr. Jane Doe",
-      "sched": "Tuesday / Thursday, 09:30 - 10:45",
+      "days": ["Tuesday", "Thursday"],
+      "session": 2,
       "room": "105-F",
       "section": "A"
     },
     {
       "id": 3,
-      "title": "Database Systems",
       "courseCode": "CSCI315",
+      "title": "Database Systems",
       "major": "Computer Science",
       "credits": 3,
       "status": "Enrolled",
       "instructor": "Dr. Alex Brown",
-      "sched": "Monday / Wednesday, 11:00 - 12:15",
+      "days": ["Monday", "Wednesday"],
+      "session": 3,
       "room": "204-C",
       "section": "C"
     }

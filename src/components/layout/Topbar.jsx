@@ -1,21 +1,26 @@
-
 import { Search, Bell } from 'lucide-react'
 
 function Topbar() {
   return (
-    <header className="h-16 border-b border-white/5 px-8 flex items-center justify-between">
+    <header className="h-16 border-b border-white/5 px-4 md:px-8 flex items-center gap-5">
 
-      <div>
-        <h2 className="text-lg font-semibold">
-          Welcome to CampusHub
-        </h2>
+      {/* Search bar - medium screens and larger */}
+      <div className="hidden md:flex flex-1 items-center gap-2 bg-surface border border-white/5 rounded-lg px-3 py-2">
+        <Search size={18} className="text-muted" />
+        <input
+          type="text"
+          placeholder="Search..."
+          className="w-full bg-transparent outline-none text-sm text-gray-100 placeholder:text-muted"
+        />
       </div>
 
-      <div className="flex items-center gap-5">
+      {/* Search button - small screens */}
+      <button className="md:hidden text-muted hover:text-white">
+        <Search size={20} />
+      </button>
 
-        <button className="text-muted hover:text-white">
-          <Search size={20} />
-        </button>
+      {/* Right-side controls */}
+      <div className="ml-auto flex items-center gap-5 shrink-0">
 
         <button className="text-muted hover:text-white">
           <Bell size={20} />

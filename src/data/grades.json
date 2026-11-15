@@ -1,0 +1,45 @@
+{
+  "semester": "Fall 2026",
+  "gpa": 3.45,
+  "courses": [
+    {
+      "id": 1,
+      "courseCode": "CSCI426",
+      "title": "Web Programming",
+      "credits": 3,
+      "grade": 88,
+      "letterGrade": "B+",
+      "assessments": [
+        { "name": "Midterm", "grade": 85, "weight": 30 },
+        { "name": "Assignments", "grade": 92, "weight": 20 },
+        { "name": "Final Exam", "grade": 87, "weight": 50 }
+      ]
+    },
+    {
+      "id": 2,
+      "courseCode": "MATH201",
+      "title": "Calculus II",
+      "credits": 3,
+      "grade": 92,
+      "letterGrade": "A",
+      "assessments": [
+        { "name": "Midterm", "grade": 90, "weight": 30 },
+        { "name": "Assignments", "grade": 95, "weight": 20 },
+        { "name": "Final Exam", "grade": 92, "weight": 50 }
+      ]
+    },
+    {
+      "id": 3,
+      "courseCode": "CSCI315",
+      "title": "Database Systems",
+      "credits": 3,
+      "grade": 76,
+      "letterGrade": "B",
+      "assessments": [
+        { "name": "Midterm", "grade": 75, "weight": 30 },
+        { "name": "Assignments", "grade": 80, "weight": 20 },
+        { "name": "Final Exam", "grade": 74, "weight": 50 }
+      ]
+    }
+  ]
+}

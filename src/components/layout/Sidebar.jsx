@@ -13,12 +13,12 @@ import {
 
 const navigation = [
   { name: 'Home', path: '/', icon: Home },
-  { name: 'About', path: '/about', icon: Info },
   { name: 'Courses', path: '/courses', icon: BookOpen },
   { name: 'Grades', path: '/grades', icon: GraduationCap },
   { name: 'Schedule', path: '/schedule', icon: CalendarDays },
   { name: 'Assignments', path: '/assignments', icon: ClipboardList },
   { name: 'Contact', path: '/contact', icon: Mail },
+  { name: 'About', path: '/about', icon: Info },
 ]
 
 function Sidebar() {
