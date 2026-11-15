@@ -6,6 +6,7 @@ import Contact from './pages/Contact'
 import Courses from './pages/Courses'
 import Grades from "./pages/Grades";
 import Schedule from "./pages/Schedule";
+import Assignments from './pages/Assignments'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/schedule" element={<Schedule />} />
-
+          <Route path="/assignments" element={<Assignments />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,0 +1,50 @@
+{
+  "semester": "Fall 2026",
+  "assignments": [
+    {
+      "id": 1,
+      "title": "Portfolio Website",
+      "courseCode": "CSCI426",
+      "courseTitle": "Web Programming",
+      "description": "Build a responsive personal portfolio using HTML, CSS, and JavaScript.",
+      "dueDate": "2026-11-17",
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "title": "Database Design",
+      "courseCode": "CSCI315",
+      "courseTitle": "Database Systems",
+      "description": "Design an ER diagram and convert it into a relational database schema.",
+      "dueDate": "2026-11-20",
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "title": "Research Paper",
+      "courseCode": "MATH201",
+      "courseTitle": "Calculus II",
+      "description": "Submit the assigned research paper.",
+      "dueDate": "2026-11-12",
+      "status": "Pending"
+    },
+    {
+      "id": 4,
+      "title": "JavaScript Exercises",
+      "courseCode": "CSCI426",
+      "courseTitle": "Web Programming",
+      "description": "Complete the exercises covering DOM manipulation and events.",
+      "dueDate": "2026-11-14",
+      "status": "Submitted"
+    },
+    {
+      "id": 5,
+      "title": "SQL Queries",
+      "courseCode": "CSCI315",
+      "courseTitle": "Database Systems",
+      "description": "Write SQL queries using joins, grouping, and nested queries.",
+      "dueDate": "2026-11-25",
+      "status": "Pending"
+    }
+  ]
+}
