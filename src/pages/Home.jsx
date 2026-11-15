@@ -1,6 +1,7 @@
 import student from '../data/student.json'
 import academic from '../data/academic.json'
 import exams from '../data/exams.json'
+import profilePicture from '../assets/profile.png'
 
 import { BookOpen, GraduationCap } from 'lucide-react'
 
@@ -13,7 +14,7 @@ function Home() {
     <div className="space-y-6">
 
       <StudentProfile
-        student={student}
+        student={{...student, profilePicture}}
         academic={academic}
       />
 

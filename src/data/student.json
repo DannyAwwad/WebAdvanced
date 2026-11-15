@@ -3,5 +3,5 @@
   "firstName": "Danny",
   "lastName": "Awwad",
   "campus": "Beirut Campus",
-  "profilePicture": "/profile.jpg"
+  "profilePicture": "../assets/profile.png"
 }

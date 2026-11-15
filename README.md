@@ -4,12 +4,7 @@ This is a simple project I'm developing for my advanced web course. It might be 
 
 The website's desgin (and some of its features) are inspired and inluenced by the intra of 42, wich is a para-university i've studied at for the better part of 2 years.
 
-## Disclaimer
-The readme section will be purely written by me, 0 AI involved.
-However i won't be denying the use of AI in this project.
-That being said i can confirm that it will be used only for guidance, helping with new concepts and help with the design using tailwind due to its vast options.
-
-I've also use vite over CRA (which i hope wouldn't be a dealbreaker) because I've already worked with it on a bigger project previously, tailwind css works here as a simple plugin and less complicated to implement in general.
+This project is hosted on vercel
 
 ## Installation
 ### Prerequisites:
