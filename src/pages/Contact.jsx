@@ -211,7 +211,7 @@ function Contact() {
                     </label>
                     <input
                       type="text"
-                      name="StudentID"
+                      name="studentID"
                       value={formData.studentID}
                       onChange={handleChange}
                       placeholder="Enter your Student ID"

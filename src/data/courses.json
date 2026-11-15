@@ -1,0 +1,41 @@
+{
+  "semester": "Fall 2026",
+  "courses": [
+    {
+      "id": 1,
+      "title": "Web Programming",
+      "courseCode": "CSCI426",
+      "major": "Computer Science",
+      "credits": 3,
+      "status": "Enrolled",
+      "instructor": "Dr. John Smith",
+      "sched": "Monday / Wednesday, 08:00 - 09:15",
+      "room": "302-A",
+      "section": "B"
+    },
+    {
+      "id": 2,
+      "title": "Calculus II",
+      "courseCode": "MATH201",
+      "major": "Mathematics",
+      "credits": 3,
+      "status": "Enrolled",
+      "instructor": "Dr. Jane Doe",
+      "sched": "Tuesday / Thursday, 09:30 - 10:45",
+      "room": "105-F",
+      "section": "A"
+    },
+    {
+      "id": 3,
+      "title": "Database Systems",
+      "courseCode": "CSCI315",
+      "major": "Computer Science",
+      "credits": 3,
+      "status": "Enrolled",
+      "instructor": "Dr. Alex Brown",
+      "sched": "Monday / Wednesday, 11:00 - 12:15",
+      "room": "204-C",
+      "section": "C"
+    }
+  ]
+}
